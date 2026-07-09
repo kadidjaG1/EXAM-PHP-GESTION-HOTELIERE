@@ -7,7 +7,7 @@ class Database
     private static string $host = '127.0.0.1';
     private static string $dbname = 'hotel_reservations';
     private static string $user = 'postgres';
-    private static string $pass = 'admin'; // Mets ton mot de passe PostgreSQL ici
+    private static string $pass = 'admin'; 
 
     private function __construct()
     {
